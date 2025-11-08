@@ -1,0 +1,13 @@
+{
+    "name": "ASW Delays",
+    "description": "Adds a fixed 5 minute (Default) delay to every assault wave and announces the first delay.",
+    "author": "MaksimMJ",
+    "version": "1.0.0",
+    "blt_version": 2,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/group_ai_states/groupaistatebesiege",
+            "script_path": "delay/super.lua"
+        }
+    ]
+}
